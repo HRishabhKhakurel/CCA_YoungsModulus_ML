@@ -17,12 +17,12 @@ This folder consists of the script to generate features for CCAs. Inside this fo
 
 2.  Scripts
 This folder consists of all the major scripts used in our project. Here  is the a brief description of all the scripts inside:\
-	*_HEA\_feature.py_: An object oriented script that defines objects and methods to	generate features for CCAs\
-	*_feature\_generation.py_ : This script is the implementation of the **HEA_feature.py** script.\
-	*_Youngs\_Modulus.py_: This script is the major script that creates an object with methods for each ML model, feature importance extraction, and result visualization.\
-	*_hyp\_opt\_script\_ada.py_: The implementation of **Youngs_Modulus.py** for Ada Boost ML model.\
-	*_hyp\_opt\_script\_gbr.py_: The implementation of **Youngs_Modulus.py** for Gradient Boosting Model.\
-	*_hyp\_opt\_xgb.py_: The implementation of **Youngs_Modulus.py** for XGBoost Model.
+	* _HEA\_feature.py_: An object oriented script that defines objects and methods to	generate features for CCAs\
+	* _feature\_generation.py_ : This script is the implementation of the **HEA_feature.py** script.\
+	*_Youngs\_Modulus.py_: This script is the major script that creates an object with methods f or each ML model, feature importance extraction, and result visualization.\
+	* _hyp\_opt\_script\_ada.py_: The implementation of **Youngs_Modulus.py** for Ada Boost ML model.\
+	* _hyp\_opt\_script\_gbr.py_: The implementation of **Youngs_Modulus.py** for Gradient Boosting Model.\
+	* _hyp\_opt\_xgb.py_: The implementation of **Youngs_Modulus.py** for XGBoost Model.
 	
 3. Optimization\_&\_Final_Results: 
 	This folder consists of scripts to perform final hyperparameter optiomization, correlation analysis and feature importance extraction  for both the dataset with only refractory alloys and dataset with all alloys.
